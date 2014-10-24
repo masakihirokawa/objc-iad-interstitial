@@ -14,7 +14,7 @@
 		C25B2F8F19FA5D0800B93EB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25B2F8E19FA5D0800B93EB6 /* Images.xcassets */; };
 		C25B2F9219FA5D0800B93EB6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25B2F9019FA5D0800B93EB6 /* LaunchScreen.xib */; };
 		C25B2F9E19FA5D0800B93EB6 /* iAdInterstitialAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C25B2F9D19FA5D0800B93EB6 /* iAdInterstitialAdTests.m */; };
-		C25B2FA819FA619900B93EB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B2FA719FA619900B93EB6 /* Default-568h@2x.png */; };
+		C25B2FAD19FA661A00B93EB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B2FAC19FA661A00B93EB6 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		C25B2F9719FA5D0800B93EB6 /* iAdInterstitialAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAdInterstitialAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25B2F9C19FA5D0800B93EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C25B2F9D19FA5D0800B93EB6 /* iAdInterstitialAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAdInterstitialAdTests.m; sourceTree = "<group>"; };
-		C25B2FA719FA619900B93EB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		C25B2FAC19FA661A00B93EB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,7 @@
 				C25B2F8B19FA5D0800B93EB6 /* Main.storyboard */,
 				C25B2F8E19FA5D0800B93EB6 /* Images.xcassets */,
 				C25B2F9019FA5D0800B93EB6 /* LaunchScreen.xib */,
+				C25B2FA919FA661A00B93EB6 /* Resources */,
 				C25B2F8119FA5D0800B93EB6 /* Supporting Files */,
 			);
 			path = iAdInterstitialAd;
@@ -98,7 +99,6 @@
 		C25B2F8119FA5D0800B93EB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C25B2FA719FA619900B93EB6 /* Default-568h@2x.png */,
 				C25B2F8219FA5D0800B93EB6 /* Info.plist */,
 				C25B2F8319FA5D0800B93EB6 /* main.m */,
 			);
@@ -120,6 +120,30 @@
 				C25B2F9C19FA5D0800B93EB6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25B2FA919FA661A00B93EB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2FAA19FA661A00B93EB6 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C25B2FAA19FA661A00B93EB6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2FAB19FA661A00B93EB6 /* Splash */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C25B2FAB19FA661A00B93EB6 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C25B2FAC19FA661A00B93EB6 /* Default-568h@2x.png */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C25B2F8D19FA5D0800B93EB6 /* Main.storyboard in Resources */,
-				C25B2FA819FA619900B93EB6 /* Default-568h@2x.png in Resources */,
 				C25B2F9219FA5D0800B93EB6 /* LaunchScreen.xib in Resources */,
+				C25B2FAD19FA661A00B93EB6 /* Default-568h@2x.png in Resources */,
 				C25B2F8F19FA5D0800B93EB6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
